@@ -1,0 +1,21 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "SQL",
+            "database": "${workspaceFolder:SHM-Python}/db.db"
+        },
+        {
+            "previewLimit": 50,
+            "server": "aws-0-eu-north-1.pooler.supabase.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Postgr",
+            "database": "postgres",
+            "username": "postgres.bsfhmmsfcdinbayfjjoh",
+            "password": "854199044Id"
+        }
+    ]
+}
